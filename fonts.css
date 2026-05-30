@@ -66,8 +66,8 @@
 }
 @font-face {
    font-family: "SVN-Gilroy";
-   src: url("fonts/SVN-GilroyBoldItalic.woff2") format("woff2");
-   font-weight: bold;
+   src: url("fonts/SVN-GilroyItalic.woff2") format("woff2");
+   font-weight: normal;
    font-style: italic;
 }
 @font-face {
@@ -75,10 +75,4 @@
    src: url("fonts/SVN-GilroyBold.woff2") format("woff2");
    font-weight: bold;
    font-style: normal;
-}
-@font-face {
-   font-family: "SVN-Gilroy";
-   src: url("fonts/SVN-GilroyItalic.woff2") format("woff2");
-   font-weight: normal;
-   font-style: italic;
 }
