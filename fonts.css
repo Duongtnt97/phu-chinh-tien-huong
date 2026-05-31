@@ -1,8 +1,14 @@
 @font-face {
    font-family: "Montserrat Thin ExtraBold";
-   src: url("fonts/Montserrat Medium.woff2") format("woff2");
-   font-weight: normal;
+   src: url("fonts/Montserrat SemiBold.woff2") format("woff2");
+   font-weight: bold;
    font-style: normal;
+}
+@font-face {
+   font-family: "Montserrat Thin ExtraBold";
+   src: url("fonts/Montserrat SemiBold Italic.woff2") format("woff2");
+   font-weight: bold;
+   font-style: italic;
 }
 @font-face {
    font-family: "Montserrat";
@@ -30,15 +36,15 @@
 }
 @font-face {
    font-family: "Be Vietnam Pro SemiBold";
-   src: url("fonts/Be Vietnam Pro SemiBold.woff2") format("woff2");
-   font-weight: bold;
-   font-style: normal;
-}
-@font-face {
-   font-family: "Be Vietnam Pro SemiBold";
    src: url("fonts/Be Vietnam Pro SemiBold Italic.woff2") format("woff2");
    font-weight: bold;
    font-style: italic;
+}
+@font-face {
+   font-family: "Be Vietnam Pro SemiBold";
+   src: url("fonts/Be Vietnam Pro SemiBold.woff2") format("woff2");
+   font-weight: bold;
+   font-style: normal;
 }
 @font-face {
    font-family: "Be Vietnam Pro Medium";
@@ -60,8 +66,8 @@
 }
 @font-face {
    font-family: "SVN-Gilroy";
-   src: url("fonts/SVN-Gilroy.woff2") format("woff2");
-   font-weight: normal;
+   src: url("fonts/SVN-GilroyBold.woff2") format("woff2");
+   font-weight: bold;
    font-style: normal;
 }
 @font-face {
@@ -72,7 +78,13 @@
 }
 @font-face {
    font-family: "SVN-Gilroy";
-   src: url("fonts/SVN-GilroyBold.woff2") format("woff2");
-   font-weight: bold;
+   src: url("fonts/SVN-Gilroy.woff2") format("woff2");
+   font-weight: normal;
    font-style: normal;
+}
+@font-face {
+   font-family: "SVN-Gilroy";
+   src: url("fonts/SVN-GilroyBoldItalic.woff2") format("woff2");
+   font-weight: bold;
+   font-style: italic;
 }
