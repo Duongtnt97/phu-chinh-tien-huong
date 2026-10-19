@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Fetch origin for safe push recovery",
+			"type": "shell",
+			"command": "git",
+			"args": [
+				"fetch",
+				"origin"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Inspect local and remote histories",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/c",
+				"git status --short --branch & git merge-base HEAD origin/main & git rev-list --left-right --count HEAD...origin/main & git diff --stat HEAD origin/main & git log --graph --oneline --decorate --all -12"
+			],
+			"isBackground": false
+		}
+	]
+}
