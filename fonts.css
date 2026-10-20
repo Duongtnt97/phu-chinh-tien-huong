@@ -24,15 +24,15 @@
 }
 @font-face {
    font-family: "Be Vietnam Pro SemiBold";
-   src: url("fonts/Be Vietnam Pro SemiBold.woff2") format("woff2");
-   font-weight: bold;
-   font-style: normal;
-}
-@font-face {
-   font-family: "Be Vietnam Pro SemiBold";
    src: url("fonts/Be Vietnam Pro SemiBold Italic.woff2") format("woff2");
    font-weight: bold;
    font-style: italic;
+}
+@font-face {
+   font-family: "Be Vietnam Pro SemiBold";
+   src: url("fonts/Be Vietnam Pro SemiBold.woff2") format("woff2");
+   font-weight: bold;
+   font-style: normal;
 }
 @font-face {
    font-family: "Be Vietnam Pro Medium";
@@ -48,21 +48,15 @@
 }
 @font-face {
    font-family: "Barlow Semi Condensed SemiBold";
-   src: url("fonts/Barlow Semi Condensed SemiBold Italic.woff2") format("woff2");
-   font-weight: bold;
-   font-style: italic;
-}
-@font-face {
-   font-family: "Barlow Semi Condensed SemiBold";
    src: url("fonts/Barlow Semi Condensed SemiBold.woff2") format("woff2");
    font-weight: bold;
    font-style: normal;
 }
 @font-face {
-   font-family: "Barlow Semi Condensed Medium";
-   src: url("fonts/Barlow Semi Condensed Medium.woff2") format("woff2");
-   font-weight: normal;
-   font-style: normal;
+   font-family: "Barlow Semi Condensed SemiBold";
+   src: url("fonts/Barlow Semi Condensed SemiBold Italic.woff2") format("woff2");
+   font-weight: bold;
+   font-style: italic;
 }
 @font-face {
    font-family: "Barlow Semi Condensed Medium";
@@ -71,8 +65,8 @@
    font-style: italic;
 }
 @font-face {
-   font-family: "Barlow Semi Condensed Light";
-   src: url("fonts/Barlow Semi Condensed Light.woff2") format("woff2");
+   font-family: "Barlow Semi Condensed Medium";
+   src: url("fonts/Barlow Semi Condensed Medium.woff2") format("woff2");
    font-weight: normal;
    font-style: normal;
 }
@@ -83,16 +77,16 @@
    font-style: italic;
 }
 @font-face {
+   font-family: "Barlow Semi Condensed Light";
+   src: url("fonts/Barlow Semi Condensed Light.woff2") format("woff2");
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
    font-family: "SVN-Gilroy";
    src: url("fonts/SVN-GilroyItalic.woff2") format("woff2");
    font-weight: normal;
    font-style: italic;
-}
-@font-face {
-   font-family: "SVN-Gilroy";
-   src: url("fonts/SVN-GilroyBold.woff2") format("woff2");
-   font-weight: bold;
-   font-style: normal;
 }
 @font-face {
    font-family: "SVN-Gilroy";
@@ -102,7 +96,7 @@
 }
 @font-face {
    font-family: "SVN-Gilroy";
-   src: url("fonts/SVN-GilroyBoldItalic.woff2") format("woff2");
+   src: url("fonts/SVN-GilroyBold.woff2") format("woff2");
    font-weight: bold;
-   font-style: italic;
+   font-style: normal;
 }
