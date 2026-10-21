@@ -90,6 +90,12 @@
 }
 @font-face {
    font-family: "SVN-Gilroy";
+   src: url("fonts/SVN-GilroyBoldItalic.woff2") format("woff2");
+   font-weight: bold;
+   font-style: italic;
+}
+@font-face {
+   font-family: "SVN-Gilroy";
    src: url("fonts/SVN-GilroyItalic.woff2") format("woff2");
    font-weight: normal;
    font-style: italic;
